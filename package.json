@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "prettier": "prettier --single-quote --write \"./**/*.{ts,html,scss}\""
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,8 @@
     "@types/chart.js": "^2.7.41",
     "chart.js": "^2.7.3",
     "core-js": "^2.5.4",
+    "lodash": "^4.17.11",
+    "prettier": "^1.15.3",
     "primeng": "^7.0.3",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
