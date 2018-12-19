@@ -38,7 +38,10 @@ export class AppComponent implements OnInit, AfterViewInit {
             // id: 'data1',
             display: true,
             type: 'category',
-            position: 'bottom'
+            position: 'bottom',
+            ticks: {
+              autoSkip: false
+            }
           }
         ],
         yAxes: [
